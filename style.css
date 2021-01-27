@@ -1,0 +1,27 @@
+body{
+padding: 100px;
+}
+h1{
+font-family: 'Montserrat', sans-serif;
+}
+#submit-area{
+margin-top: 20px;
+padding: 60px;
+border-radius: 10px;
+box-shadow: 5px 5px   10px  #b6bbc0;
+}
+#transaction-Area{
+display: none;
+}
+.deposit{
+background-color: slateblue;
+margin: 0 20px;
+}
+.withdraw{
+background-color: lightsalmon;
+margin: 0 20px;
+
+}
+.balance{
+background-color: orange;
+}
