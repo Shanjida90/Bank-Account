@@ -1,10 +1,11 @@
 body{
 padding: 100px;
+margin:0 50px ;
 }
 h1{
 font-family: 'Montserrat', sans-serif;
 }
-#submit-area{
+.submit-area{
 margin-top: 20px;
 padding: 60px;
 border-radius: 10px;
@@ -13,15 +14,31 @@ box-shadow: 5px 5px   10px  #b6bbc0;
 #transaction-Area{
 display: none;
 }
+.status{
+margin:  1px;
+padding: 20px 10px;
+border-radius: 8px;
+max-width: 60%;
+}
 .deposit{
 background-color: slateblue;
-margin: 0 20px;
+
 }
 .withdraw{
 background-color: lightsalmon;
-margin: 0 20px;
 
 }
 .balance{
 background-color: orange;
+}
+.make-align{
+justify-content: center;
+}
+.measure-box{
+    width: 80%;
+
+}
+.second-column{
+margin-top: 30px;
+
 }
